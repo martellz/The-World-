@@ -1,0 +1,14 @@
+User guide
+
+
+Open command line
+>>>python3 run.py -r <path of training set> -e <path of testing set>
+
+Result will be two figures of accuracy¡Athe first one is ro use training set evaluate training set¡A
+the other one is to use training set evaluate testing set.
+
+Note:
+First line of training dataset and/or testing dataset should have feature lable "text" and "airline_sentiment"¡A
+Otherwise program can't cater the column data.
+
+python3 run.py -r 3000tweets.csv -e Tweets.csv
